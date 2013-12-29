@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Mate Light</string>
+    <string name="description">Send a message to the Mate Light display:</string>
+    <string name="action_about">About</string>
+    <string name="default_mate_message">Mate Light rocks!</string>
+    <string name="send_button_label">Send</string>
+    <string name="cancel_button_label">Cancel</string>
+    <string name="status_trying_to_send">Trying to send message…</string>
+    <string name="status_ok">Message sent</string>
+    <string name="status_error">Error: %s</string>
+    <string name="status_cancelled">Cancelled</string>
+
+    <string name="about_text"><![CDATA[
+        <p>
+        <strong>Mate Light</strong> by jaseg<br>
+        <a href="https://github.com/jaseg/matelight">https://github.com/jaseg/matelight</a>
+        </p><p>
+        <strong>Mate Light Android App</strong> by cketti<br>
+        <a href="https://github.com/cketti/MateLightAndroid">https://github.com/cketti/MateLightAndroid</a>
+        </p>
+    ]]></string>
+    <string name="about_dialog_ok">Ok</string>
+    <string name="about_dialog_title">About</string>
+
+</resources>
