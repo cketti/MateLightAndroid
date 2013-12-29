@@ -5,6 +5,8 @@ import android.app.Fragment;
 import android.content.Context;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.text.Html;
+import android.text.method.LinkMovementMethod;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -22,6 +24,7 @@ public class MateLightFragment extends Fragment {
     private Button mCancelButton;
     private SendMessageTask mSendMessageTask;
     private Context mContext;
+    private TextView mAdContent;
 
 
     @Override
@@ -58,6 +61,10 @@ public class MateLightFragment extends Fragment {
                 cancelSendMessage();
             }
         });
+
+        mAdContent = (TextView) view.findViewById(R.id.ad_content);
+        mAdContent.setText(Html.fromHtml(getString(R.string.journey_ad)));
+        mAdContent.setMovementMethod(LinkMovementMethod.getInstance());
     }
 
     @Override

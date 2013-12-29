@@ -23,5 +23,17 @@
     ]]></string>
     <string name="about_dialog_ok">Ok</string>
     <string name="about_dialog_title">About</string>
+-
+    <string name="advertisment">Advertisment</string>
+    <string name="journey_ad"><![CDATA[
+        <p>
+        Join us for <a href="http://hf.gd/journey">Journey To The End Of The Year</a>
+        - a race through Berlin\'s city streets - on Dec 31.
+        </p>
+        <p>
+        Send a mail to <a href="mailto:journey.bln@gmail.com">journey.bln@gmail.com</a> if you
+        have questions.
+        </p>
+    ]]></string>
 
 </resources>
