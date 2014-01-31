@@ -24,7 +24,6 @@ public class MateLightFragment extends Fragment {
     private Button mCancelButton;
     private SendMessageTask mSendMessageTask;
     private Context mContext;
-    private TextView mAdContent;
 
 
     @Override
@@ -61,10 +60,6 @@ public class MateLightFragment extends Fragment {
                 cancelSendMessage();
             }
         });
-
-        mAdContent = (TextView) view.findViewById(R.id.ad_content);
-        mAdContent.setText(Html.fromHtml(getString(R.string.journey_ad)));
-        mAdContent.setMovementMethod(LinkMovementMethod.getInstance());
     }
 
     @Override
