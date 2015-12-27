@@ -9,7 +9,7 @@ import java.net.InetSocketAddress;
 import java.net.Socket;
 
 public class MateLight {
-    private static final String HOST = "ml.jaseg.net";
+    private static final String HOST = "api.matelight.rocks";
     private static final int PORT = 1337;
     private static final String SUCCESS = "KTHXBYE!";
     private static final int TIMEOUT = 60 * 1000;
